@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'BerkshireSwash';
+    src: url("./fonts/BerkshireSwash-Regular.ttf");
+}
+
+@media (max-width:1366px) {
+    body {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo {
+    font-family: 'BerkshireSwash';
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: 1px 1px rgb(3, 3, 3), 2px 2px #020202, 3px 3px rgb(58, 1, 1), 4px 4px #750000;
+    margin-top: 0px;
+    font-size: 100px;
+}
+
+.Logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+Form {
+    margin: 1%;
+    width: 10%;
+    font-family: 'BerkshireSwash';
+    color: #f1f5f5;
+    text-shadow: 1px 1px rgb(3, 3, 3), 2px 2px #030000, 3px 3px rgb(58, 1, 1), 4px 4px #750000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+input {
+    display: block;
+    padding: 1px;
+    width: 100%;
+    font-family: 'BerkshireSwash';
+    margin: 4px;
+    color: floralwhite;
+}
+
+input[type="submit"] {
+    background: linear-gradient(#5a0101, #5a0101);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.9)
+}
+
+.container-fondo {
+    width: 100%;
+    height: 60vh;
+    background-image: url("./Img/Portada.jpg");
+    background-repeat: no-repeat;
+    filter: saturate(150%);
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: inline-block;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, rgb(255, 255, 240) 100%);
+}
+
+.list-nav {
+    list-style: none;
+}
+
+.item-nav {
+    display: inline-block;
+    margin: 0px 5px;
+    font-family: 'BerkshireSwash';
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.item-nav a {
+    color: inherit;
+    text-decoration: none;
+    cursor: inherit;
+}
+
+.item-nav a:hover {
+    color: #b61a05;
+    cursor: pointer;
+}
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook2 {
+    background: #3b5998;
+}
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-instagram {
+    background: #9b0000;
+}
+
+.social ul li a:hover {
+    background: #000;
+    padding: 10px 30px;
+}
+
+.section {
+    margin-top: 0%;
+}
+
+.container-bandas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.tarjeta {
+    position: relative;
+    background-position: center;
+    height: 59vh;
+    width: 25%;
+    background-size: cover;
+}
+
+.Slipknot-card {
+    background-image: url(./Img/Slipknot.jpg);
+}
+
+.Testament-card {
+    background-image: url(./Img/Testament.jpg);
+}
+
+.IronMaiden-card {
+    background-image: url(./Img/IronMaiden.jpg);
+}
+
+.ACDC-card {
+    background-image: url(./Img/ACDC.jpg);
+}
+
+.containerinfo {
+    display: flex;
+    font-family: 'BerkshireSwash';
+    margin: 100px;
+    margin-top: 20px;
+    box-shadow: 3px 2px 5px 15px rgba(0, 0, 0, 0.75);
+    margin-bottom: 25px;
+}
+
+.cardinfo {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.descripción {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Boletería {
+    position: relative;
+    width: 40%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloboletería {
+    position: relative;
+    display: block;
+    width: 40%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cardbandas {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.Informaciónbandas {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Presentaciónbandas {
+    position: relative;
+    width: 40%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulobandas {
+    position: relative;
+    display: block;
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.containervideos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 55%, rgb(255, 255, 240) 100%);
+}
+
+footer {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: 'BerkshireSwash';
+    background-image: url(./Img/Footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+footer p {
+    text-align: center;
+    text-shadow: 1px 1px rgb(3, 3, 3), 2px 2px #020202, 3px 3px rgb(58, 1, 1), 4px 4px #750000;
+    font-size: 25px;
+}
+
+.Redes i {
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+    text-shadow: 1px 1px rgb(3, 3, 3), 2px 2px #020202, 3px 3px rgb(58, 1, 1), 4px 4px #750000;
+}
